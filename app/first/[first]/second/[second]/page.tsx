@@ -4,7 +4,8 @@ interface SecondParamsPageProps {
   params: { first: string; second: string };
 }
 
-export const runtime = "experimental-edge";
+export const runtime = "edge";
+export const dynamic = "force-dynamic";
 
 export default function SecondParamsPage({ params }: SecondParamsPageProps) {
   return (
